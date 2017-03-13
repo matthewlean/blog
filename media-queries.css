@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Medium Screen */
+@media (max-width: 1021px) {
+
+ .site-container {
+    max-width: 90%;
+}
+.sub-nav{
+  display: none;
+}
+.primary {
+  height: inherit;
+  overflow: hidden;
+}
+.primary .content-wrap{
+  margin: 0 auto;
+}
+.primary .content-wrap .content{
+  width: auto;
+}
+.primary .content-wrap-alt{
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+.secondary .project-list-item{
+  height: auto;
+}
+
+.secondary .project-list-item .content-wrap .content{
+  width: auto;
+}
+
+.tertiary .content .image{
+  width: 135px;
+  height: 135px;
+}
+.tertiary .content img{
+  width: 135px;
+}
+}
+
+/*Small Screen */
+@media (max-width: 850px) {
+
+  .post{
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+.secondary .project-list-item .content-wrap {
+  width: 70%;
+  padding: 30px;
+}
+
+}
+
+@media (max-width: 600px) {
+.entry{
+  padding: 60px 25px 0 25px;
+}
+.secondary .project-list-item .content-wrap {
+    width: 100%;
+    padding: 30px;
+  }
+.secondary .content-wrap-alt{
+  display: none;
+}
+}
