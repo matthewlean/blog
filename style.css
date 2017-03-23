@@ -57,14 +57,14 @@ p {
     letter-spacing: .01em;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 0.8em;
     line-height: 1.7;
     margin: 0 auto
 }
 
 h1 {
     font-family: Open Sans;
-    font-size: 30px;
+    font-size: 1.5em;
     line-height: 1.15;
     font-weight: 600;
     color: #333333;
@@ -73,7 +73,7 @@ h1 {
 
 h2 {
     font-family: Open Sans;
-    font-size: 25px;
+    font-size: 1.3em;
     font-weight: 600;
     margin: 0 auto;
     color: #333333;
@@ -81,7 +81,7 @@ h2 {
 
 h3 {
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 1.15;
   font-weight: 600;
   color: #333333;
@@ -90,7 +90,7 @@ h3 {
 
 h4 {
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.15;
   font-weight: 600;
   color: #036aed;
@@ -107,21 +107,18 @@ h4 {
 }
 
 .entry{
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 60px 0 0 0;
   box-sizing: border-box;
 }
 
 .entrycontainer{
-    background-color: #fff;
-    border-right: #D4D4D4 1px solid;
-    border-left: #D4D4D4 1px solid;
 }
 
 .entry p{
-  font-size: 18px;
-  line-height: 1.88;
+  font-size: 0.95em;
+  line-height: 1.6rem;
 }
 
 .entry h1{
@@ -164,101 +161,90 @@ h4 {
 }
 
 .navbar {
-    height: 50px;
-    display: block;
-    line-height: 1.5;
-    padding-left: -49px;
-    padding-right: 0;
-    margin: 0 auto;
-    width: 100%;
-    background: linear-gradient(45deg, #036aed 0, #00d0ff 100%);
+  height: 50px;
+  display: block;
+  line-height: 1.5;
+  padding-left: -49px;
+  padding-right: 0;
+  margin: 0px auto;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: solid 1px #f2f2f2;
 }
-
 .navbar ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 0 0;
     height: 50px;
     display: flex;
     padding: 0;
-    float: left
+    float: left;
+    border-left: solid 1px #f2f2f2;
 }
-
 .navbar ul li {
     float: left;
     line-height: 50px;
     font-family: Open Sans;
     font-size: 14px;
-    width: inherit;
+    width: 90px;
+    border-right: solid 1px #f2f2f2;
+    display:flex;justify-content:center;align-items:center;
 }
-
-.navbar ul li a:link,
-a:visited {
-    text-align: center;
-    padding: 0 20px 0 20px;
-    color: #fff;
-}
-
 .navbar ul li:hover {
-    color: #fff;
-    transition: all 10ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    background-color: #0b4faf
+  color: #036aed;
+  transition: all 10ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  background-color: #F9F9F9;
 }
-
 .navlogo {
-    margin: 0;
-    float: left;
-    padding: 0 30px 0 30px
+  margin: 0;
+  float: left;
+  height:50px;
+  padding: 0 30px 0 30px;
 }
-
-.navlogo:hover {
-    transition: all 10ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    background-color: #f9f9f9
+.navlogo:hover{
+  transition: all 10ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+  background-color: #F9F9F9;
 }
-
-.navlogo img {
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: left;
-    height: 23px;
-    width: auto;
-    margin: 15px 0 0 25px;
-    cursor: pointer
+.navlogo img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  height: 23px;
+  width: auto;
+  margin: 15px 0 0 25px;
+  cursor: pointer;
 }
-
 .navbar ul a:link {
-    display: block
+  display: block;
 }
-
-.sub-nav {
-    width: 100%;
-    height: 50px;
-    display: block;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center
+.sub_nav{
+  width: 100%;
+  height: 50px;
+  display: block;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .primary {
     display: block;
     margin: 20px 0 0 0;
-    height: 215px
+    height: 197px
 }
 
 .secondary {
     display: block;
     border-radius: 3px;
     margin: 20px 0 0 0;
-    border: #D4D4D4 1px solid;
 }
 
 .tertiary {
     display: block;
     background-color: #fff;
     border-radius: 3px;
-    border: #D4D4D4 1px solid;
-    margin: 20px 0 0 0;
-    margin: 0 0 40px 0
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 20px 0 40px 0;
 }
 
 .primary .heroheader {
@@ -307,7 +293,7 @@ a:visited {
     float: left;
     margin: 0 20px 0 0;
     border-radius: 3px;
-    border: #D4D4D4 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .content-wrap {
@@ -344,7 +330,7 @@ a:visited {
 .primary .content-wrap-alt {
     display: block;
     background-color: #fff;
-    border: #D4D4D4 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     float: left;
     overflow: hidden;
@@ -352,6 +338,14 @@ a:visited {
     width: 330px
 }
 
+.home .secondary .project-list-item{
+    background-color: #fff;
+    border-bottom: 1px solid #eceef1;
+}
+.home .secondary .project-list-item:hover {
+    background-color: #f9f9f9;
+    transition: ease 0.2s;
+}
 .main-title {
     padding: 20px 20px 20px 30px;
     background-color: #fff;
@@ -360,9 +354,10 @@ a:visited {
 }
 
 .secondary .project-list-item {
-    border-bottom: 1px solid #eceef1;
+    /* border-bottom: 1px solid #eceef1; */
     overflow: hidden;
-    border-left: solid 5px #ffffff;
+    /* border-bottom: solid 1px #737f8d; */
+    /* border-left: solid 5px #ffffff; */
 }
 
 .secondary .project-list-item h2{
@@ -378,8 +373,7 @@ a:visited {
 }
 
 .secondary .project-list-item .content-wrap {
-    width: 60%;
-    padding: 30px 0 30px 30px;
+    padding: 30px;
     float: left;
     position: relative;
     margin-left:-5px;
@@ -392,22 +386,22 @@ a:visited {
 }
 
 .secondary .project-list-item .content-wrap:hover {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     transition: all .2s ease;
 }
 
 .project-list-item {
     display: block;
     margin: 0 auto;
-    background-color: #fff;
-    border-bottom: 1px solid #eceef1;
+    /* background-color: #fff; */
+    /* border-bottom: 1px solid #eceef1; */
 }
 
 .project-list-item:hover {
     background-color: #f9f9f9;
-    border-left: solid 5px #036aed;
+    /* border-left: solid 1px #036aed; */
     position: inherit;
-    transition: ease 0.3s;
+    transition: ease 0.2s;
 }
 
 .secondary .content-wrap-alt img {
@@ -469,18 +463,21 @@ a:visited {
 
 .banner {
     width: 100%;
-    height: 150px;
+    height: 300px;
     display: block;
     background: linear-gradient(45deg, #036aed 0, #00d0ff 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 20px 0;
     border-radius: 3px
 }
 
 .white {
     fill: #fff
+}
+
+.blue {
+    fill: #036aed;
 }
 
 footer{

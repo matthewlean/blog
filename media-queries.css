@@ -49,12 +49,6 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
-
-.secondary .project-list-item .content-wrap {
-  width: 70%;
-  padding: 30px;
-}
-
 }
 
 @media (max-width: 600px) {
@@ -67,5 +61,27 @@
   }
 .secondary .content-wrap-alt{
   display: none;
+}
+footer{
+  min-height:100px;
+}
+footer .content{
+  margin: 0 auto;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: none;
+}
+footer .content-alt {
+    margin: 0 auto;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+}
+.fa{
+  font-size: 1.3em
 }
 }
