@@ -31,7 +31,7 @@ body {
 }
 
 .site-container {
-    max-width: 910px;
+    width: 910px;
     margin: 0 auto;
     box-sizing: border-box
 }
@@ -113,19 +113,9 @@ h4 {
   box-sizing: border-box;
 }
 
-.entrycontainer{
-}
-
 .entry p{
   font-size: 0.95em;
   line-height: 1.6rem;
-}
-
-.entry h1{
-  font-size: 30px;
-  line-height: 1.15;
-  font-weight: 600;
-  color: #333333;
 }
 
 .entry h2{
@@ -234,7 +224,7 @@ h4 {
 }
 
 .secondary {
-    display: block;
+    display: -webkit-box;
     border-radius: 3px;
     margin: 20px 0 0 0;
 }
@@ -309,7 +299,8 @@ h4 {
 }
 
 .primary .content-wrap-alt .content .description {
-    margin: 5px 0 0 0
+    margin: 5px 0 0 0;
+    max-height: 120px;
 }
 
 .primary .content-wrap-alt .content .wrap {
@@ -338,14 +329,20 @@ h4 {
     width: 330px
 }
 
-.home .secondary .project-list-item{
-    background-color: #fff;
-    border-bottom: 1px solid #eceef1;
+.home .secondary .project-list-item {
+  margin-left: 0;
 }
-.home .secondary .project-list-item:hover {
-    background-color: #f9f9f9;
-    transition: ease 0.2s;
+
+.blog .site-container{
+  width: 90%;
+  max-width: 1200px;
 }
+
+.blog .site-container .project-list-item{
+  width: 31%;
+  border-radius: 3px;
+}
+
 .main-title {
     padding: 20px 20px 20px 30px;
     background-color: #fff;
@@ -353,11 +350,19 @@ h4 {
     border-bottom: 1px solid #eceef1;
 }
 
+.thumb .wp-post-image{
+    width: 100%;
+    height: auto;
+}
+.secondary .content-wrap{
+    border-radius: 3px;
+}
 .secondary .project-list-item {
-    /* border-bottom: 1px solid #eceef1; */
+    width: 48%;
+    margin: 1%;
+    float: left;
     overflow: hidden;
-    /* border-bottom: solid 1px #737f8d; */
-    /* border-left: solid 5px #ffffff; */
+    background-color: #fff;
 }
 
 .secondary .project-list-item h2{
@@ -376,7 +381,6 @@ h4 {
     padding: 30px;
     float: left;
     position: relative;
-    margin-left:-5px;
 }
 
 .secondary .content-wrap-alt {
@@ -431,6 +435,15 @@ h4 {
     margin: 10px 0 0 0
 }
 
+.secondary .project-list-item .content .description {
+    margin: 5px 0 0 0;
+}
+
+/* Makes three columns */
+.ms-item {
+width: 33%;
+}
+
 .tertiary .content {
     display: inline-block
 }
@@ -459,6 +472,13 @@ h4 {
 .tertiary .content img {
     max-width: 150px;
     vertical-align: middle
+}
+
+.home .site-container {
+    width: 910px;
+}
+.home .site-container .project-list-item {
+    width: 100%;
 }
 
 .banner {

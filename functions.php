@@ -4,7 +4,7 @@
 
 	automatic_feed_links();
 
-	
+
 
 	// Load jQuery
 
@@ -18,7 +18,7 @@
 
 	}
 
-	
+
 
 	// Clean up the <head>
 
@@ -34,7 +34,7 @@
 
     remove_action('wp_head', 'wp_generator');
 
-    
+
 
 	// Declare sidebar widget zone
 
@@ -76,8 +76,5 @@
 
     );
 
-}
-
-
-
+}/** * Filter the except length to 20 words. * * @param int $length Excerpt length. * @return int (Maybe) modified excerpt length. */add_theme_support( 'post-thumbnails' );// Pull Masonry from the core of WordPresswp_enqueue_script( 'masonry' );
 ?>

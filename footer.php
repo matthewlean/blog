@@ -52,6 +52,19 @@
 			ga("create", "UA-72807916-1", "auto");
 			ga("send", "pageview");
 	</script>
+	<script type="text/javascript">
+
+        jQuery(window).load(function() {
+      var container = document.querySelector('.secondary ');
+      var msnry = new Masonry( container, {
+        itemSelector: '.ms-item',
+        columnWidth: '.ms-item',
+      });
+
+        });
+
+
+    </script>
 
 </body>
 

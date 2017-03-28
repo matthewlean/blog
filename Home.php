@@ -6,6 +6,12 @@
 
 ?>
 
+<div class="banner">
+		<svg xmlns="http://www.w3.org/2000/svg" width="70px" height="auto" viewBox="0 0 476.3 437.8" style="enable-background:new 0 0 476.3 437.8" xml:space="preserve">
+				<polyline class="white" points="239.1,290.6 343.1,186.7 346,183.7 346,437.8 476.3,413.1 476.3,24.7 346,0 238.7,107 238.7,107 130.3,0 0,24.7 0,413.1 130.3,437.8 130.3,182.8 130.3,182.8 239.1,290.6 331.3,198.5 346,183.7"></polyline>
+		</svg>
+</div>
+
 <?php get_header(); ?>
 				<div class="home">
 	        <div class="primary">
@@ -45,71 +51,33 @@
 	                    </div>
 	                </div>
 	            </div>
-	            <div class="content-wrap-alt">
-	                <div class="content">
-	                    <div class="title">
-	                        <h3>My Websites</h3>
-	                        <p>Websites I've made</p>
-	                    </div>
-	                    <div class="description" <="">
-	                    <div class="wrap">
-	                        <a href="http://wecook.io/" id="wecook.io" role="button">
-	                            <img src="http://wecook.io/favicons/favicon-32x32.png" alt="" width="20" height="auto">
-	                            <div class="link">
-	                                <p>wecook.io</p>
-	                            </div>
-	                        </a>
-	                    </div>
-	                    <div class="wrap">
-	                        <a href="http://colourpal.xyz/" id="colourpal.xyz" role="button">
-	                            <img src="http://colourpal.xyz/favicon/favicon-96x96.png" alt="" width="20" height="auto">
-	                            <div class="link">
-	                                <p>colourpal.xyz</p>
-	                            </div>
-	                        </a>
-	                    </div>
-	                    <div class="wrap">
-	                        <a href="http://dotadiscord.xyz/" id="dotadiscord.xyz" role="button">
-	                            <img src="images/logos/dota-logo.png" alt="" width="20" height="auto">
-	                            <div class="link">
-	                                <p>dotadiscord.xyz</p>
-	                            </div>
-	                        </a>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
+
 	    </div>
 
-			  <div class="secondary">
-		        <div class="main-title">
-		            <h3>Projects</h3>
-		            <p>Recent projects I've worked on</p>
-		        </div>
+			<div class="tertiary">
 
-	<?php query_posts("posts_per_page=5")?>
+			<div class="main-title">
+					<h3>Recent Projects</h3>
+			</div>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<?php query_posts("posts_per_page=3")?>
 
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<div <?php post_class('project-list-item') ?> id="post-<?php the_ID(); ?>">
-				<a href="<?php the_permalink(); ?>">
-					<div class="content-wrap">
-						<div class="content">
-        					<div class="title">
-	        					<h3> <?php the_title(); ?></h3>
-        					</div>
-        					<div class="subtitle"><?php include (TEMPLATEPATH . '/inc/meta.php' ); ?></div>
-					         <div class="description">
-					         <p><?php the_excerpt(); ?></p>
-					         </div>
+			<a href="<?php the_permalink(); ?>">
+				<div <?php post_class('project-list-item ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12') ?>">
+							<div class="content">
+								<div class="content-wrap">
+	        					<div class="title">
+		        					<h3> <?php the_title(); ?></h3>
+	        					</div>
+
+								</div>
+							</div>
 						</div>
-					</div>
-				</a>
-			</div>
-
-			<?php endwhile; ?>
-			</div>
+			</a>
+		<?php endwhile; ?>
+	</div>
 
 	    <div class="tertiary">
 	        <div class="main-title">
