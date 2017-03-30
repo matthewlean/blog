@@ -152,32 +152,27 @@ h4 {
 
 .navbar {
   height: 50px;
-  display: block;
-  line-height: 1.5;
-  padding-left: -49px;
-  padding-right: 0;
-  margin: 0px auto;
   width: 100%;
-  background-color: #fff;
-  border-bottom: solid 1px #f2f2f2;
 }
 .navbar ul {
     list-style-type: none;
-    margin: 0 0 0 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     height: 50px;
     display: flex;
-    padding: 0;
     float: left;
     border-left: solid 1px #f2f2f2;
 }
-.navbar ul li {
-    float: left;
-    line-height: 50px;
+.navbar ul li a {
     font-family: Open Sans;
     font-size: 14px;
-    width: 90px;
     border-right: solid 1px #f2f2f2;
-    display:flex;justify-content:center;align-items:center;
+    display: block;
+    color: #036aed;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
 }
 .navbar ul li:hover {
   color: #036aed;
@@ -234,7 +229,7 @@ h4 {
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    margin: 20px 0 40px 0;
+    margin: 20px 0 0px 0;
 }
 
 .primary .heroheader {
@@ -280,7 +275,7 @@ h4 {
 
 .primary .content-wrap {
     background-color: #fff;
-    float: left;
+    width: 100%;
     margin: 0 20px 0 0;
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.08);
@@ -331,6 +326,9 @@ h4 {
 
 .home .secondary .project-list-item {
   margin-left: 0;
+}
+.home .tertiary .project-list-item h3{
+  font-weight: 300;
 }
 
 .blog .site-container{
@@ -470,7 +468,7 @@ width: 33%;
 }
 
 .tertiary .content img {
-    max-width: 150px;
+    max-width: 33%;
     vertical-align: middle
 }
 
@@ -504,6 +502,7 @@ footer{
   height: 50px;
   background-color: #fff;
   width: 100%;
+  margin: 20px 0 0px 0;
 }
 
 footer i {

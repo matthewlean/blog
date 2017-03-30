@@ -7,6 +7,9 @@
  .site-container {
     max-width: 90%;
 }
+.home .site-container {
+    width: 90%;
+}
 .sub-nav{
   display: none;
 }
@@ -38,9 +41,6 @@
 }
 .tertiary .content img{
   width: 135px;
-}
-  .blog .site-container .project-list-item {
-    width: 48%;
 }
 }
 
