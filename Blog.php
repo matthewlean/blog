@@ -29,12 +29,12 @@
 								<?php the_post_thumbnail('small'); ?>
 							</div>
 							<div class="content-wrap">
-        					<div class="title">
+        			<div class="title">
 	        					<h3> <?php the_title(); ?></h3>
-        					</div>
-					         <div class="description">
+        			</div>
+					    <div class="description">
 					         	<?php the_excerpt(); ?>
-					         </div>
+					    </div>
 							</div>
 						</div>
 					</div>

@@ -36,8 +36,8 @@
 	                        <a title="Lindedin" class="btn btn-default" href="http://www.linkedin.com/in/matthew-lean-0338b382">
 	                            <i class="fa fa-linkedin" aria-hidden="true"></i>
 	                        </a>
-	                        <a title="Codepen" class="btn btn-default" href="http://codepen.io/matthewlean/">
-	                            <i class="fa fa-codepen" aria-hidden="true"></i>
+													<a title="GitHub" class="btn btn-default" href="https://github.com/matthewlean">
+	                            <i class="fa fa-github" aria-hidden="true"></i>
 	                        </a>
 	                        <a title="Instagram" class="btn btn-default" href="https://www.instagram.com/matthewlean/">
 	                            <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -45,8 +45,8 @@
 	                        <a title="Twitter" class="btn btn-default" href="https://twitter.com/MattLean-">
 	                            <i class="fa fa-twitter" aria-hidden="true"></i>
 	                        </a>
-	                        <a title="Spotify" class="btn btn-default" href="http://open.spotify.com/user/matthewlean">
-	                            <i class="fa fa-spotify" aria-hidden="true"></i>
+													<a title="Codepen" class="btn btn-default" href="http://codepen.io/matthewlean/">
+	                            <i class="fa fa-codepen" aria-hidden="true"></i>
 	                        </a>
 	                    </div>
 	                </div>
@@ -67,9 +67,7 @@
 				<a href="<?php the_permalink(); ?>">
 					<div <?php post_class('project-list-item ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12') ?>">
 								<div class="content">
-									<div class="thumb">
-										<?php the_post_thumbnail('small'); ?>
-									</div>
+
 									<div class="content-wrap">
 		        					<div class="title">
 			        					<h3> <?php the_title(); ?></h3>

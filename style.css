@@ -468,7 +468,7 @@ width: 33%;
 }
 
 .tertiary .content img {
-    max-width: 33%;
+    max-width: 100%;
     vertical-align: middle
 }
 
