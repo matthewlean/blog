@@ -54,12 +54,24 @@
   }
 
   .blog .site-container .project-list-item {
-    width: 100%;
+    width: 49%;
+    padding-bottom: 10px;
+    height: 250px;
+}
+.tertiary{
+      display: inline-block;
 }
 }
 
 @media (max-width: 600px) {
-.entry{
+  .blog .site-container .project-list-item{
+    height: auto;
+  }
+.tertiary{
+      display: inline-block;
+}
+
+  .entry{
   padding: 60px 25px 0 25px;
 }
 .secondary .project-list-item .content-wrap {

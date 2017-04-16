@@ -13,19 +13,19 @@
 </div>
 
 <?php get_header(); ?>
-				<div class="home">
-	        <div class="primary">
-	            <div class="content-wrap">
-	                <div class="content">
-	                    <div class="title">
-	                        <div class="image">
-	                            <img src="images/p.jpg">
-	                        </div>
-	                        <div class="title-alt">
-	                            <h3>Matthew Lean</h3>
-	                            <p>Student</p>
-	                        </div>
-	                    </div>
+
+<div class="primary">
+	<div class="content-wrap">
+		<div class="content">
+	    <div class="title">
+	      <div class="image">
+	        <img src="images/p.jpg">
+	      </div>
+	     	<div class="title-alt">
+	      	<h3>Matthew Lean</h3>
+	      	<p>Student</p>
+	      </div>
+	      </div>
 	                    <div class="description">
 	                        <p>Reading Digital Media Design at Bournemouth University. I'm currently working on my graduation project <a href="wecook.io">wecook.io</a> ( a social recipe app) which will go live some time in the summer.</p>
 	                    </div>
@@ -54,33 +54,35 @@
 
 	    </div>
 
-			<div class="tertiary">
+			<div class="projects">
 
 			<div class="main-title">
 					<h3>Recent Projects</h3>
 			</div>
 
-			<?php query_posts("posts_per_page=3")?>
+			<div class="content">
+
+			<?php query_posts("posts_per_page=6")?>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<a href="<?php the_permalink(); ?>">
 					<div <?php post_class('project-list-item ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12') ?>">
 								<div class="content">
-
+									<div class="thumb">
+										<?php the_post_thumbnail('small'); ?>
+									</div>
 									<div class="content-wrap">
-		        					<div class="title">
-			        					<h3> <?php the_title(); ?></h3>
-		        					</div>
-							         <div class="description">
-							         	<?php the_excerpt(); ?>
-							         </div>
+		        			<div class="title">
+			        					<p> <?php the_title(); ?></p>
+		        			</div>
 									</div>
 								</div>
-							</div>
+					</div>
 				</a>
 		<?php endwhile; ?>
 	</div>
+</div>
 
 	    <div class="tertiary">
 	        <div class="main-title">
