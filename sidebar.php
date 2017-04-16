@@ -3,7 +3,7 @@
   <div class="header">
           <div class="navbar">
             <div class="site-container">
-              <a href="#">
+              <a href="http://matthewlean.co.uk">
               <div class="navlogo">
                   <!-- Logo svg -->
                   <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="auto" viewBox="0 0 476.3 437.8" style="enable-background:new 0 0 476.3 437.8;" xml:space="preserve">
@@ -22,7 +22,7 @@
                   </ul>
             </div>
           </div>
-
+          <!--
           <div class="sub-nav">
                   <div class="site-container">
                     <div class="content-wrap">
@@ -47,12 +47,13 @@
                               <a href="#">Music</a>
                           </li>
                       </ul>
-                    -->
-                    <p> Email me for job enquiries at <a href="mailto:mttlean@gmail.com">mttlean@gmail.com</a><p>
+                    
+                    <p> Email me at <a href="mailto:mttlean@gmail.com">mttlean@gmail.com</a><p>
                   </div>
                 </div>
           </div>
       </div>
+    -->
     </div>
 
 </aside>

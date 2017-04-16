@@ -36,7 +36,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/media-queries.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/media-queries.css">
+
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
