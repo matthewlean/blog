@@ -1,7 +1,7 @@
 <?php
 
 	/*
-		Template Name: Blog Homepage
+		Template Name: NewBlog Homepage
 	*/
 
 ?>

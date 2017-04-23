@@ -329,11 +329,14 @@ h4 {
 .page-template .banner , .single .banner{
   height: 75px;
 }
+.home .banner{
+  height: 200px!important;
+}
+.home .banner svg{
+  height: 4vw!important;
+}
 .page-template .banner svg , .single .banner svg{
   height: 0vw;
-}
-.blog .sub-nav{
-  display: none;
 }
 .main-title {
     padding: 20px 20px 20px 30px;

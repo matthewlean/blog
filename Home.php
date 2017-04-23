@@ -21,7 +21,7 @@
 				<a title="Email" class="btn btn-default" href="mailto:mttlean@gmail.com">
 					<i class="fa fa-envelope" aria-hidden="true"></i>
 				</a>
-				<a title="Lindedin" class="btn btn-default" href="http://www.linkedin.com/in/matthew-lean-0338b382">
+				<a title="Lindedin" class="btn btn-default" href="https://www.linkedin.com/in/m-lean/">
 					<i class="fa fa-linkedin" aria-hidden="true"></i>
 				</a>
 				<a title="GitHub" class="btn btn-default" href="https://github.com/matthewlean">
@@ -30,7 +30,7 @@
 				<a title="Instagram" class="btn btn-default" href="https://www.instagram.com/matthewlean/">
 					<i class="fa fa-instagram" aria-hidden="true"></i>
 				</a>
-				<a title="Twitter" class="btn btn-default" href="https://twitter.com/MattLean-">
+				<a title="Twitter" class="btn btn-default" href="https://twitter.com/matthewLean_">
 					<i class="fa fa-twitter" aria-hidden="true"></i>
 				</a>
 				<a title="Codepen" class="btn btn-default" href="http://codepen.io/matthewlean/">
@@ -46,7 +46,7 @@
 
 	<div class="main-title">
 		<h3>Recent Projects</h3>
-		<h4><a href="#">View All</a></h4>
+		<h4><a href="/blog">View All</a></h4>
 	</div>
 
 	<div class="content">
