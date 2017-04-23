@@ -93,17 +93,17 @@ endif;
 		<div class="secondary">
 
 			<div class="ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<a href="https://vsco.co/matthewlean/images/1">
+				<a href="http://vsco.co/matthewlean/media/58f792ea514128544c000001">
 				<img class=".ms-item" src="<?php bloginfo('template_url')?>/images/highgate.jpg" />
 				</a>
 			</div>
 			<div class="ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<a href="https://vsco.co/matthewlean/images/1">
+				<a href="http://vsco.co/matthewlean/media/58f6479151412817d1000001">
 				<img src="<?php bloginfo('template_url')?>/images/blueberries.jpg" />
 				</a>
 			</div>
 			<div class="ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<a href="https://vsco.co/matthewlean/images/1">
+				<a href="http://vsco.co/matthewlean/media/58f647a051412817d1000003">
 				<img class=".ms-item" src="<?php bloginfo('template_url')?>/images/harrods.jpg" />
 				</a>
 			</div>
@@ -159,8 +159,6 @@ endif;
 		</div>
 	</div>
 </div>
-
-<h2>Not Found</h2>
 
 </div>
 
