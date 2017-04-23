@@ -475,8 +475,8 @@ width: 33%;
 }
 
 .tertiary .content .image {
-    width: 160px;
-    height: 160px;
+    width: 25%;
+    height: 212px;
     padding: 5px;
     border-radius: 5px;
     display: inline-block;
@@ -496,7 +496,7 @@ width: 33%;
 }
 
 .tertiary .content img {
-    max-width: 100%;
+    width: 100%;
     vertical-align: middle
 }
 

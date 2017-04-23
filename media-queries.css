@@ -35,10 +35,6 @@
   width: auto;
 }
 
-.tertiary .content .image{
-  width: 135px;
-  height: 135px;
-}
 .tertiary .content img{
   width: 135px;
 }
@@ -85,6 +81,10 @@
   }
 .secondary .content-wrap-alt{
   display: none;
+}
+.tertiary .content .image{
+  width: 50%;
+  height: 135px;
 }
 footer{
   min-height:100px;
