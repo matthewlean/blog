@@ -15,7 +15,7 @@
 				</div>
 			</div>
 			<div class="description">
-				<p>Final year Digital Media Design student at Bournemouth University. I'm currently working on my graduation project <a href="wecook.io">wecook.io</a> ( a social recipe app) which will go live some time in the summer.</p>
+				<p>Final year Digital Media Design student at Bournemouth University. I'm currently working on my graduation project <a href="http://wecook.io/">wecook.io</a> ( a social recipe app) which will go live some time in the summer.</p>
 			</div>
 			<div class="links">
 				<a title="Email" class="btn btn-default" href="mailto:mttlean@gmail.com">
@@ -120,39 +120,37 @@ endif;
 	<div class="content-wrap">
 		<div class="content">
 			<a class="image" href="https://www.instagram.com/p/BM9QVQChRps/">
-				<div>
 					<div class="helper">
 						<img src="images/logos/wecook-logo.png">
 					</div>
-				</div>
 			</a>
 			<a class="image" href="http://colourpal.xyz/">
-				<div>
+				<div class="helper">
 					<img src="images/logos/colourpal-logo.png">
 				</div>
 			</a>
 			<a class="image" href="https://www.instagram.com/p/BFWQC2vMfDp/">
-				<div>
+				<div class="helper">
 					<img src="images/logos/colourpal-text.png">
 				</div>
 			</a>
 			<a class="image" href="https://www.instagram.com/p/BFqqGv8sfMi">
-				<div>
+				<div class="helper">
 					<img src="images/logos/konacoffeehouse.png">
 				</div>
 			</a>
 			<a class="image" href="https://www.instagram.com/p/BFqqVDHsfNB">
-				<div>
+				<div class="helper">
 					<img src="images/logos/puredota.png">
 				</div>
 			</a>
 			<a class="image" href="https://www.instagram.com/p/BGmEwDXsfIn">
-				<div>
+				<div class="helper">
 					<img src="images/logos/raptors.png">
 				</div>
 			</a>
 			<a class="image" href="https://www.instagram.com/p/BEqWLwzsfCh">
-				<div>
+				<div class="helper">
 					<img src="images/logos/s.png">
 				</div>
 			</a>

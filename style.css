@@ -520,9 +520,9 @@ width: 33%;
   margin-top: 0;
 }
 .banner {
-    background: linear-gradient(45deg, #036aed 0, #00d0ff 100%);
     position: relative;
     height: 200px;
+  background: linear-gradient(270deg, #00d0ff, #036aed);
 }
 
 .banner svg{
