@@ -42,6 +42,7 @@
 .tertiary .content img{
   width: 135px;
 }
+
 }
 
 /*Small Screen */
@@ -54,6 +55,11 @@
   }
 .tertiary{
       display: inline-block;
+}
+.primary .content-wrap .title .image img {
+    width: 100px;
+    height: 100px;
+    transition: ease 0.4s;
 }
 }
 
