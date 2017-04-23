@@ -51,11 +51,16 @@
 
 	<div class="content">
 
-		<?php query_posts( "posts_per_page=3")?>
+	<?php
+  $args = array(
+        'posts_per_page' => 3,
+        'meta_key' => 'meta-checkbox',
+        'meta_value' => 'yes'
+    );
+    $featured = new WP_Query($args);
 
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-		<a href="<?php the_permalink(); ?>">
+if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post(); ?>
+<a href="<?php the_permalink(); ?>">
 			<div <?php post_class( 'project-list-item ms-item col-lg-6 col-md-6 col-sm-6 col-xs-12') ?>>
 				<div class="content">
 					<div class="thumb">
@@ -71,7 +76,11 @@
 				</div>
 			</div>
 		</a>
-		<?php endwhile; ?>
+<?php
+
+endwhile; else:
+endif;
+?>
 	</div>
 </div>
 
@@ -151,11 +160,8 @@
 	</div>
 </div>
 
-<?php else : ?>
-
 <h2>Not Found</h2>
 
-<?php endif; ?>
 </div>
 
 <?php get_sidebar(); ?>
