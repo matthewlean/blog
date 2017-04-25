@@ -451,6 +451,9 @@ width: 33%;
   margin-right: 1%;
   overflow: hidden;
 }
+.photography .ms-item:hover{
+  opacity: 0.8;
+}
 .photography-page .ms-item{
   width: 48%;
   align-items: center;
@@ -510,6 +513,9 @@ width: 33%;
     float: left;
     margin-right: 1%;
     height: 220px;
+}
+.home .site-container .project-list-item:hover{
+  opacity: 0.8;
 }
 
 .home .site-container .project-list-item .content-wrap{
